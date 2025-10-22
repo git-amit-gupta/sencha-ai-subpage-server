@@ -25,7 +25,7 @@
  */
 
 // Replace by your frontend domain
-const myFrontEndUrl = 'https://sencha-ai-subpage-test.vercel.app/';
+const myFrontEndUrl = 'https://sencha-ai-subpage-test.vercel.app';
 // Replace by your backend domain
 const myServerUrl = 'https://sencha-ai-subpage-server.onrender.com';
 
