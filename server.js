@@ -25,9 +25,9 @@
  */
 
 // Replace by your frontend domain
-const myFrontEndUrl = 'http://localhost:1841';
+const myFrontEndUrl = 'https://sencha-ai-subpage-test.vercel.app/';
 // Replace by your backend domain
-const myServerUrl = 'http://localhost:3000';
+const myServerUrl = 'https://sencha-ai-subpage-server.onrender.com';
 
 // Import the Express framework to build the web server
   const express = require('express');
