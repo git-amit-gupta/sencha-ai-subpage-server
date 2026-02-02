@@ -75,7 +75,7 @@
         console.log("here", prompt);
         try {
             const completion = await openai.chat.completions.create({
-                model: 'gpt-4',
+                model: process.env.GPT_MODEL,
                 messages: [
                     { role: 'system', content: 'You convert queries to Ext JS filters.' }, // Define assistant behavior
                     { role: 'user', content: prompt } // Provide user's formatted query
